@@ -8,52 +8,66 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&display=swap');
 
 body {
 background-color: #FFFFFF;
 font-family: 'Archivo', Arial, Helvetica, sans-serif;
-color: #272425;
+color: #212529;
 }
 
 h1 {
 color: #000000;
-text-shadow: #e0e0e0 1px 1px 0;
+text-shadow: #DEE2E6 1px 1px 0.1px;
 text-align: center;
+font-family: 'Averia Serif Libre', cursive;
 }
 
 h2 {
-color: #272425;
+color: #212529;
 text-align: center;
+background-color: #E9ECEF;
+border-radius: 5px;
+margin-left: auto;
+margin-right: auto;margin: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+h2.subtitle {
+font-family: 'Averia Serif Libre', cursive;
 }
 
 h3 {
-color: #494244;
+color: #343A40;
 text-align: center;
 }
 
 a:link {
 text-decoration: none;
-color: #494244;
+color: #343A40;
 font-weight: bold;
 }
 
 a:visited {
 text-decoration: none;
-color: #494244;
+color: #343A40;
 }
 
 a:hover {
 text-decoration: none;
-color: #6D6365;
+color: #6C757D;
 }
 
 a:active {
 text-decoration: none;
-color: #494244;
+color: #343A40;
 }
 
 .menubox{
-background-color: #F7F7F7;
+background-color: #F8F9FA;
 padding: 20px;
 border-radius: 10px;
 margin-top: 40px;
@@ -67,48 +81,104 @@ display: grid;
 grid-template-columns: auto auto auto;
 }
 
-.caticonfb {
+.caticonapple {
+color: #a6b1b7;
+}
+
+.caticondeviantart {
+color: #05cc47;
+}
+
+.caticondiscogs {
+color: #313131;
+}
+
+.caticondiscord {
+color: #5865f2;
+}
+
+.caticonfacebook {
 color: #1877f2;
 }
 
-.caticongl {
+.caticonflickr{
+color: #f40083;
+}
+
+.caticonfoursquare {
+color: #f94877;
+}
+
+.caticongithub {
+color: #161414;
+}
+
+.caticongoogle {
 color: #4285f4;
 }
 
-.caticonig {
+.caticoninstagram {
 color: #c32aa3;
 }
 
-.caticonsg {
+.caticonlinkedin {
+color: #0A66C2;
+}
+
+.caticonmastodon {
+color: #2B90D9;
+}
+
+.caticonmedium {
+color: #02B875;
+}
+
+.caticonreddit {
+color: #FF4500;
+}
+
+.caticonsignal {
 color: #3f78e7;
 }
 
-.caticonsp {
+.caticonsnapchat {
 color: #fffc00;
 }
 
-.caticontg {
+.caticonspotify {
+color: #1ED760;
+}
+
+.caticontelegram {
 color: #0088cc;
 }
 
-.caticontk {
+.caticontumblr {
+color: #35465D;
+}
+
+.caticontiktok {
 color: #010101;
 }
 
-.caticontw {
+.caticontwitter {
 color: #1da1f2;
 }
 
-.caticonwa {
+.caticonvk {
+color: #4A76A8;
+}
+
+.caticonwhatsapp {
 color: #25d366;
 }
 
-.caticonyt {
+.caticonyoutube {
 color: #ff0000;
 }
 
 .menulink{
-background-color: #C2C2C2;
+background-color: #DEE2E6;
 border-radius: 5px;
 margin: 2px;
 padding-top: 2px;
@@ -118,11 +188,11 @@ padding-right: 20px;
 }
 
 .menulink:hover {
-background-color: #a8a8a8;
+background-color: #E9ECEF;
 }
 
 .contentbox{
-background-color: #F7F7F7;
+background-color: #F8F9FA;
 padding-left: 60px;
 padding-right: 60px;
 padding-top: 3px;
@@ -130,9 +200,11 @@ padding-bottom: 20px;
 border-radius: 10px;
 margin-top: 40px;
 margin-bottom: 40px;
-width: 60%;
+width: 40%;
 margin-left: auto;
 margin-right: auto;
+word-break: break-all;
+hyphens: auto;
 }
 
 .instructionscode {
@@ -157,29 +229,111 @@ font-weight: bold;
 <!-- About -->
 <div id="about" class="contentbox">
 
-<h2>About</h2>
+<h2 class="subtitle">About</h2>
 <p>Have you asked yourself how to archive all the content you have published in social websites and message services? Here there are a compilation of manuals and instructions on how to preserve profiles on social media and messaging services. If you have an improvement idea or suggestion, please write to <a href="mailto:howtoarchiveit@protonmail.com">howtoarchiveit@protonmail.com</a> or send a commit to the <a href="https://github.com/howtoarchiveit/howtoarchiveit.github.io">repository</a>.</p>
 </div>
 <!-- About -->
 
 <!-- Menu -->
 <div class="menubox">
-<a href="#Facebook"><div class="menulink"><h3><i class="fab fa-brands fa-facebook caticonfb"></i> Facebook</h3></div></a>
-<a href="#Google"><div class="menulink"><h3><i class="fab fa-brands fa-google caticongl"></i> Google</h3></div></a>
-<a href="#Instagram"><div class="menulink"><h3><i class="fab fa-brands fa-instagram caticonig"></i> Instagram</h3></div></a>
-<a href="#Signal"><div class="menulink"><h3><!--<i class="fab fa-brands fa-signal caticonsg"></i>--> Signal</h3></div></a>
-<a href="#Snapchat"><div class="menulink"><h3><i class="fab fa-brands fa-snapchat caticonsp"></i> Snapchat</h3></div></a>
-<a href="#Telegram"><div class="menulink"><h3><i class="fab fa-brands fa-telegram caticontg"></i> Telegram</h3></div></a>
-<a href="#TikTok"><div class="menulink"><h3><i class="fab fa-brands fa-tiktok caticontk"></i> TikTok</h3></div></a>
-<a href="#Twitter"><div class="menulink"><h3><i class="fab fa-brands fa-twitter caticontw"></i> Twitter</h3></div></a>
-<a href="#WhatsApp"><div class="menulink"><h3><i class="fab fa-brands fa-whatsapp caticonwa"></i> WhatsApp</h3></div></a>
-<a href="#YouTube"><div class="menulink"><h3><i class="fab fa-brands fa-youtube caticonyt"></i> YouTube</h3></div></a>
+<a href="#Apple"><div class="menulink"><h3><i class="fab fa-brands fa-apple caticonapple"></i> Apple</h3></div></a>
+<a href="#DeviantArt"><div class="menulink"><h3><i class="fab fa-brands fa-deviantart caticondeviantart"></i> DeviantArt</h3></div></a>
+<a href="#Discogs"><div class="menulink"><h3><!--<i class="fab fa-brands fa-discogs caticondiscogs"></i>--> Discogs</h3></div></a>
+<a href="#Discord"><div class="menulink"><h3><i class="fab fa-brands fa-discord caticondiscord"></i> Discord</h3></div></a>
+<a href="#Facebook"><div class="menulink"><h3><i class="fab fa-brands fa-facebook caticonfacebook"></i> Facebook</h3></div></a>
+<a href="#Flickr"><div class="menulink"><h3><i class="fab fa-brands fa-flickr caticonflickr"></i> Flickr</h3></div></a>
+<a href="#Foursquare"><div class="menulink"><h3><i class="fab fa-brands fa-foursquare caticonfoursquare"></i> Foursquare</h3></div></a>
+<a href="#GitHub"><div class="menulink"><h3><i class="fab fa-brands fa-github caticongithub"></i> GitHub</h3></div></a>
+<a href="#Google"><div class="menulink"><h3><i class="fab fa-brands fa-google caticongoogle"></i> Google</h3></div></a>
+<a href="#Instagram"><div class="menulink"><h3><i class="fab fa-brands fa-instagram caticoninstagram"></i> Instagram</h3></div></a>
+<a href="#LinkedIn"><div class="menulink"><h3><i class="fab fa-brands fa-linkedin caticonlinkedin"></i> Linkedin</h3></div></a>
+<a href="#Mastodon"><div class="menulink"><h3><i class="fab fa-brands fa-mastodon caticonmastodon"></i> Mastodon</h3></div></a>
+<a href="#Medium"><div class="menulink"><h3><i class="fab fa-brands fa-medium caticonmedium"></i> Medium</h3></div></a>
+<a href="#Reddit"><div class="menulink"><h3><i class="fab fa-brands fa-reddit caticonreddit"></i> Reddit</h3></div></a>
+<a href="#Signal"><div class="menulink"><h3><!--<i class="fab fa-brands fa-signal caticonsignal"></i>--> Signal</h3></div></a>
+<a href="#Snapchat"><div class="menulink"><h3><i class="fab fa-brands fa-snapchat caticonsnapchat"></i> Snapchat</h3></div></a>
+<a href="#Spotify"><div class="menulink"><h3><i class="fab fa-brands fa-spotify caticonspotify"></i> Spotify</h3></div></a>
+<a href="#Telegram"><div class="menulink"><h3><i class="fab fa-brands fa-telegram caticontelegram"></i> Telegram</h3></div></a>
+<a href="#TikTok"><div class="menulink"><h3><i class="fab fa-brands fa-tiktok caticontiktok"></i> TikTok</h3></div></a>
+<a href="#Tumblr"><div class="menulink"><h3><i class="fab fa-brands fa-tumblr caticontumblr"></i> Tumblr</h3></div></a>
+<a href="#Twitter"><div class="menulink"><h3><i class="fab fa-brands fa-twitter caticontwitter"></i> Twitter</h3></div></a>
+<a href="#VK"><div class="menulink"><h3><i class="fab fa-brands fa-vk caticonvk"></i> VK</h3></div></a>
+<a href="#WhatsApp"><div class="menulink"><h3><i class="fab fa-brands fa-whatsapp caticonwhatsapp"></i> WhatsApp</h3></div></a>
+<a href="#YouTube"><div class="menulink"><h3><i class="fab fa-brands fa-youtube caticonyoutube"></i> YouTube</h3></div></a>
 </div>
 <!-- /Menu -->
 
+<!-- Apple -->
+<div id="Apple" class="contentbox">
+<h2 title="Apple"><i class="fab fa-brands fa-apple caticonapple"></i> Apple</h2>
+<p class="instructionscode"><a href="https://appleid.apple.com">Apple ID account page</a> → Data & Privacy → Manage Your Data and Privacy → Request a copy of your data → Complete request</p>
+
+<p>By exporting your account to Apple, you can get Apple ID account and device information, Apple Media Services information, Apple Online and Retail Stores, Apple Pay activity, AppleCare, Game Center, Maps Report an Issue, Marketing communications, iCloud Bookmarks, Calendars, Reminders, Contacts, iCloud Drive, Mail, Notes, and Photos.</p>
+
+<ul>
+<li><a href="https://support.apple.com/en-us/HT208502">Get a copy of the data associated with your Apple ID account - Apple Support</a></li>
+<li><a href="https://backupyoursh.it/guides/apple-music/">Apple Music - Backup Your Shit!</a></li>
+<li><a href="https://support.apple.com/guide/music/save-a-copy-of-your-playlists-mus27cd5060f/mac">Save a copy of a playlist in Music on Mac - Apple Support</a></li>
+<li><a href="https://backupyoursh.it/guides/apple/">Apple - Backup Your Shit!</a></li>
+</ul>
+
+<p class="backtothetop"><a href="#" title="Back to the privacy tools category menu"><br><i class="fas fa-angle-double-up"></i><br>Back to the top</a></p>
+</div>
+<!-- /Apple -->
+
+<!-- DeviantArt -->
+<div id="DeviantArt" class="contentbox">
+<h2 title="DeviantArt"><i class="fab fa-brands fa-deviantart caticondeviantart"></i> DeviantArt</h2>
+<!-- <p class="instructionscode"><a href="#">account page</a> → Complete request</p> -->
+
+<p>You may not export all of your DeviantArt profile data, but you can download certain information and works that you have posted.</p>
+
+<ul>
+<li><a href="https://www.reddit.com/r/DataHoarder/comments/dimokr/way_to_download_all_of_my_deviantart_favorites/">Way to Download all of my DeviantArt favorites, while creating subfolders for my different "collection." : DataHoarder</a></li>
+<li><a href="https://github.com/mikf/gallery-dl">mikf/gallery-dl: Command-line program to download image galleries and collections from several image hosting sites</a></li>
+</ul>
+
+<p class="backtothetop"><a href="#" title="Back to the privacy tools category menu"><br><i class="fas fa-angle-double-up"></i><br>Back to the top</a></p>
+</div>
+<!-- /DeviantArt -->
+
+<!-- Discogs -->
+<div id="Discogs" class="contentbox">
+<h2 title="Discogs"><!--<i class="fab fa-brands fa-discogs caticondiscogs"></i>--> Discogs</h2>
+<p class="instructionscode"><a href="https://www.discogs.com/my">Dashboard</a> → <a href="https://www.discogs.com/users/export">Export</a> → Request Data Export</p>
+
+<p>At Discogs you can download your data from Collection, Contributions, Marketplace Inventory, Marketplace Order Items, Marketplace Orders, and Wantlist.</p>
+
+<ul>
+<li>
+<a href="https://backupyoursh.it/guides/discogs/">Discogs - Backup Your Shit!</a></li>
+<li><a href="https://support.discogs.com/hc/en-us/articles/360007521034-How-Can-I-Export-My-Entire-Inventory-">How Can I Export My Entire Inventory? – Discogs</a></li>
+</ul>
+
+<p class="backtothetop"><a href="#" title="Back to the privacy tools category menu"><br><i class="fas fa-angle-double-up"></i><br>Back to the top</a></p>
+</div>
+<!-- /Discogs -->
+
+<!-- Discord -->
+<div id="Discord" class="contentbox">
+<h2 title="Discord"><i class="fab fa-brands fa-discord caticondiscord"></i> Discord</h2>
+<!--<p class="instructionscode"><a href="#">Dashboard</a> → <a href="#">Export</a> → Request Data Export</p>-->
+
+<p>You can't export chats and profile data from Discord, but you can download data with external software.</p>
+
+<ul>
+<li><a href="https://www.reddit.com/r/discordapp/comments/7anqjk/can_i_export_chat_logs_or_whats_best_for_my/">Can I export chat logs? Or what’s best for my situation. : discordapp</a></li>
+<li><a href="https://support.discord.com/hc/en-us/community/posts/360035147072-Export-Entire-Chats">Export Entire Chats – Discord</a></li>
+<li><a href="https://github.com/Tyrrrz/DiscordChatExporter">Tyrrrz/DiscordChatExporter: Exports Discord chat logs to a file</a></li>
+</ul>
+
+<p class="backtothetop"><a href="#" title="Back to the privacy tools category menu"><br><i class="fas fa-angle-double-up"></i><br>Back to the top</a></p>
+</div>
+<!-- /Discord -->
+
 <!-- Facebook -->
 <div id="Facebook" class="contentbox">
-<h2 title="Facebook"><i class="fab fa-brands fa-facebook caticonfb"></i> Facebook</h2>
+<h2 title="Facebook"><i class="fab fa-brands fa-facebook caticonfacebook"></i> Facebook</h2>
 <p class="instructionscode"><a href="https://www.facebook.com/settings/">Settings</a> → <a href="https://www.facebook.com/settings?tab=your_facebook_information">Your Facebook Information</a> → <a href="https://www.facebook.com/dyi/">Download</a></p>
 
 <p>With Facebook you have the option to download your own profile with posts and photos and videos. You can choose the file format, media quality and date range for your download. HTML format is easy to view while JSON format allows another service to more easily import the file. Media quality is the quality of your photos and videos but also affects file size.</p>
@@ -192,9 +346,60 @@ font-weight: bold;
 </div>
 <!-- /Facebook -->
 
+<!-- Flickr -->
+<div id="Flickr" class="contentbox">
+<h2 title="Flickr"><i class="fab fa-brands fa-flickr caticonflickr"></i> Flickr</h2>
+<p class="instructionscode"><a href="https://www.flickr.com/account">Account settings</a> → Your Flickr Data → Request my Flickr data</p>
+
+<p>On your Flickr account page in the area "Your Flickr Data", you are able to request all of your data.</p>
+
+<ul>
+<li><a href="https://mikelieser.medium.com/5-ways-to-download-all-of-your-original-flickr-photos-and-albums-3e31fb4f9221">5 ways to download all of your original Flickr photos and albums | by Mike Lieser | Medium</a></li>
+<li><a href="https://www.macworld.com/article/229389/how-to-download-your-flickr-photo-library-and-transfer-it-to-google-photos-or-icloud-photo-library.html">How to download your Flickr photo library and transfer it to Google Photos or iCloud Photo library</a></li>
+<li><a href="https://www.theverge.com/2019/1/16/18174035/how-to-download-your-photos-from-flickr">How to download your photos from Flickr - The Verge</a></li>
+</ul>
+
+<p class="backtothetop"><a href="#" title="Back to the privacy tools category menu"><br><i class="fas fa-angle-double-up"></i><br>Back to the top</a></p>
+</div>
+<!-- /Flickr -->
+
+<!-- Foursquare -->
+<div id="Foursquare" class="contentbox">
+<h2 title="Foursquare"><i class="fab fa-brands fa-flickr caticonfoursquare"></i> Foursquare</h2>
+<p class="instructionscode"><a href="https://foursquare.com/settings/privacy">Privacy Settings</a> → Export My Data</p>
+
+<p>Export your Foursquare profile data, with checkins and photos.</p>
+
+<ul>
+<li><a href="https://www.quora.com/Is-it-possible-to-export-my-location-history-from-Foursquare">Is it possible to export my location history from Foursquare? - Quora</a></li>
+<li><a href="https://aaronparecki.com/2021/07/03/5/export-foursquare-checkin-history">How to export your complete Foursquare checkin history • Aaron Parecki</a></li>
+<li><a href="https://github.com/aaronpk/Swarm-Checkins-Import">aaronpk/Swarm-Checkins-Import: Import your Foursquare/Swarm checkins to your Micropub-enabled website</a></li>
+<li><a href="Data https://lifehacker.com/why-you-should-delete-your-ancient-foursquare-data-1837615177">Why You Should Delete Your (Ancient) Foursquare</a></li>
+</ul>
+
+<p class="backtothetop"><a href="#" title="Back to the privacy tools category menu"><br><i class="fas fa-angle-double-up"></i><br>Back to the top</a></p>
+</div>
+<!-- /Foursquare -->
+
+<!-- GitHub -->
+<div id="GitHub" class="contentbox">
+<h2 title="GitHub"><i class="fab fa-brands fa-github caticongithub"></i> GitHub</h2>
+<p class="instructionscode"><a href="https://github.com/settings/profile">Settings</a> → <a href="https://github.com/settings/admin">Account</a> → Export account data</p>
+
+<p>In GitHub you will be able to download all your commit comments, images included in issues, issues, issue comments, issue events (i.e. "labeled", "opened", "closed"), milestones, projects, pull Requests, pull request reviews, releases, repositories, users (who have contributed to the repositories).</p>
+
+<ul>
+<li><a href="https://backupyoursh.it/guides/github/">GitHub - Backup Your Shit!</a></li>
+<li><a href="https://docs.github.com/en/github/understanding-how-github-uses-and-protects-your-data/requesting-an-archive-of-your-personal-accounts-data">Requesting an archive of your personal account’s data - GitHub Docs</a></li>
+</ul>
+
+<p class="backtothetop"><a href="#" title="Back to the privacy tools category menu"><br><i class="fas fa-angle-double-up"></i><br>Back to the top</a></p>
+</div>
+<!-- /GitHub -->
+
 <!-- Google -->
 <div id="Google" class="contentbox">
-<h2 title="Google"><i class="fab fa-brands fa-google caticongl"></i> Google</h2>
+<h2 title="Google"><i class="fab fa-brands fa-google caticongoogle"></i> Google</h2>
 <p class="instructionscode"><a href="https://myaccount.google.com">Google Account</a> → <a href="https://myaccount.google.com/data-and-personalization">Data & personalisation</a> → <a href="https://takeout.google.com">Google Takeout</a></p>
 
 <p>Export a copy of content in your Google Account to back it up or use it with a service outside of Google.</p>
@@ -205,22 +410,94 @@ font-weight: bold;
 
 <!-- Instagram -->
 <div id="Instagram" class="contentbox">
-<h2 title="Instagram"><i class="fab fa-brands fa-instagram caticonig"></i> Instagram</h2>
+<h2 title="Instagram"><i class="fab fa-brands fa-instagram caticoninstagram"></i> Instagram</h2>
 <p class="instructionscode"><a href="https://www.instagram.com/accounts/edit/">Settings</a> → <a href="https://www.instagram.com/accounts/privacy_and_security/">Privacy and Security</a> → Data Download → <a href="https://www.instagram.com/download/request/">Request Download</a></p>
 
 <p>They will email you a link to a file with your information. You can receive it in HTML, which may be easier to view, or JSON, which may be easier to import to another service.</p>
 
 <ul>
 <li><a href="https://www.docnow.io/workshops/social-control-2019/">Social Control 2019 Zine</a></li>
+<li><a href="https://backupyoursh.it/guides/instagram/">Instagram - Backup Your Shit!</a></li>
+<li><a href="https://help.instagram.com/181231772500920">How do I access or review my data on Instagram? | Instagram Help Centre</a></li>
 </ul>
 
 <p class="backtothetop"><a href="#" title="Back to the privacy tools category menu"><br><i class="fas fa-angle-double-up"></i><br>Back to the top</a></p>
 </div>
 <!-- /Instagram -->
 
+<!-- LinkedIn -->
+<div id="LinkedIn" class="contentbox">
+<h2 title="LinkedIn"><i class="fab fa-brands fa-linkedin caticonlinkedin"></i> LinkedIn</h2>
+<p class="instructionscode">Me icon → <a href="https://www.linkedin.com/psettings/">Settings & Privacy</a> → <a href="https://www.linkedin.com/psettings/member-data">Get a copy of your data</a> → Request archive</p>
+
+<p>LinkedIn provides a very easy way to export your data from the site: companies you follow, Connections, education history, groups, job history, phone numbers, private messages, professional certifications, registration IP, school honors, your emails addresses.</p>
+
+<ul>
+<li><a href="https://www.linkedin.com/help/linkedin/answer/50191/downloading-your-account-data">Downloading Your Account Data | LinkedIn Help</a></li>
+<li><a href="https://www.linkedin.com/help/linkedin/answer/4281/save-a-profile-as-a-pdf">Save a Profile as a PDF | LinkedIn Help</a></li>
+<li><a href="https://www.linkedin.com/help/linkedin/answer/95768/export-your-linkedin-page-analytics-report">Export Your LinkedIn Page Analytics Report | LinkedIn Help</a></li>
+<li><a href="https://backupyoursh.it/guides/linkedin/">LinkedIn - Backup Your Shit!</a></li>
+</ul>
+
+<p class="backtothetop"><a href="#" title="Back to the privacy tools category menu"><br><i class="fas fa-angle-double-up"></i><br>Back to the top</a></p>
+</div>
+<!-- /LinkedIn -->
+
+<!-- Mastodon -->
+<div id="Mastodon" class="contentbox">
+<h2 title="Mastodon"><i class="fab fa-brands fa-mastodon caticonmastodon"></i> Mastodon</h2>
+<p class="instructionscode"><a href="https://mastodon.social/settings/preferences">Preferences<a/> → <a href="https://mastodon.social/settings/export">Import and export<a/> → REQUEST YOUR ARCHIVE</p>
+
+<p>At any time you want, you can download from Mastodon a CSV file for your current followed accounts, your currently created lists, your currently blocked accounts, your currently muted accounts, and your currently blocked domains.</p>
+
+<ul>
+<li><a href="https://docs.joinmastodon.org/user/moving/#export">Moving or leaving accounts - Mastodon documentation</a></li>
+</ul>
+
+<p class="backtothetop"><a href="#" title="Back to the privacy tools category menu"><br><i class="fas fa-angle-double-up"></i><br>Back to the top</a></p>
+</div>
+<!-- /Mastodon -->
+
+<!-- Medium -->
+<div id="Medium" class="contentbox">
+<h2 title="Medium"><i class="fab fa-brands fa-medium caticonmedium"></i> Medium</h2>
+<p class="instructionscode"><a href="https://medium.com/me/settings">Settings</a> → Account → Download your information → Download .zip</p>
+
+<p>Medium gives you the ability to export your personal data and stories as HTML files in a .zip archive.</p>
+
+<ul>
+<li><a href="https://help.medium.com/hc/en-us/articles/115004745787-Export-your-account-data">Export your account data – Help Center</a></li>
+<li><a href="https://medium.com/blogging-guide/daily-medium-hack-15-downloading-and-backing-up-your-medium-articles-ac413d20ded4">Backing up Your Medium Articles. Backing up your Medium article’s on a… | by Casey Botticello | Blogging Guide | Medium</a></li>
+</ul>
+
+<p class="backtothetop"><a href="#" title="Back to the privacy tools category menu"><br><i class="fas fa-angle-double-up"></i><br>Back to the top</a></p>
+</div>
+<!-- /Medium -->
+
+<!-- Reddit -->
+<div id="Reddit" class="contentbox">
+<h2 title="Reddit"><i class="fab fa-brands fa-reddit caticonreddit"></i> Reddit</h2>
+<p class="instructionscode"><a href="https://www.reddit.com/settings/data-request">Request your Reddit data</a></p>
+
+<p>You can request a copy of data Reddit has about your Reddit account, selecting the type of request is it (General Data Protection Regulation (GDPR) or California Consumer Privacy Act (CCPA) or other) and specifying data range.
+
+</p>
+
+<ul>
+<li><a href="https://reddit.zendesk.com/hc/en-us/articles/360043048352-How-do-I-request-a-copy-of-my-Reddit-data-and-information-">How do I request a copy of my Reddit data and information? – Reddit Help</a></li>
+<li><a href="https://www.reddit.com/r/DataHoarder/comments/hxmbw6/how_do_i_backup_my_reddit_account_and_export_all/">How do I backup my Reddit account and export all my comments, saved posts, etc.? : DataHoarder</a></li>
+<li><a href="https://github.com/shadowmoose/RedditDownloader">shadowmoose/RedditDownloader: Scrapes Reddit to download media of your choice.</a></li>
+<li><a href="https://www.reddit.com/r/DataHoarder/comments/d0hjs7/reddit_takeout_export_your_account_data_as_json/">Reddit takeout: export your account data as JSON: comments, submissions, upvotes, etc. : DataHoarder</a></li>
+<li><a href="https://github.com/karlicoss/rexport">karlicoss/rexport: Reddit takeout: export your account data as JSON: comments, submissions, upvotes etc. 🦖</a></li>
+</ul>
+
+<p class="backtothetop"><a href="#" title="Back to the privacy tools category menu"><br><i class="fas fa-angle-double-up"></i><br>Back to the top</a></p>
+</div>
+<!-- /Reddit -->
+
 <!-- Signal -->
 <div id="Signal" class="contentbox">
-<h2 title="Signal"><!--<i class="fab fa-brands fa-signal caticonsg"></i>--> Signal</h2>
+<h2 title="Signal"><!--<i class="fab fa-brands fa-signal caticonsignal"></i>--> Signal</h2>
 <p class="instructionscode">Settings → Chats and media → TURN ON</p>
 
 <p>Using backups can store Signal messages, pictures, files, and other contents locally on your device, or can use it to move your local Signal data between mobile phone devices.</p>
@@ -236,7 +513,7 @@ font-weight: bold;
 
 <!-- Snapchat -->
 <div id="Snapchat" class="contentbox">
-<h2 title="Facebook"><i class="fab fa-brands fa-snapchat caticonsp"></i> Snapchat</h2>
+<h2 title="Snapchat"><i class="fab fa-brands fa-snapchat caticonsnapchat"></i> Snapchat</h2>
 <p class="instructionscode"><a  href="http://accounts.snapchat.com">Manage My Account</a> → My Data → Submit Request</p>
 
 <p>Snapchat collects certain information from their users, like phone number and email address. Also collect information about how they use the services, like which Snaps have submitted to Spotlight and Snap Map.</p>
@@ -250,9 +527,25 @@ font-weight: bold;
 </div>
 <!-- /Snapchat -->
 
+<!-- Spotify -->
+<div id="Spotify" class="contentbox">
+<h2 title="Spotify"><i class="fab fa-brands fa-spotify caticonspotify"></i> Spotify</h2>
+<!--<p class="instructionscode"><a  href="#">Manage My Account</a> → My Data → Submit Request</p>-->
+
+<p>Using Spotify API and external software and 3rd party apps, it is possible to export only lists of songs in playlists and render them in CSV format.</p>
+
+<ul> 
+<li><a href="https://backupyoursh.it/guides/spotify/">Spotify - Backup Your Shit!</a></li>
+<li><a href="https://exportify.net">Exportify</a></li>
+</ul>
+
+<p class="backtothetop"><a href="#" title="Back to the privacy tools category menu"><br><i class="fas fa-angle-double-up"></i><br>Back to the top</a></p>
+</div>
+<!-- /Spotify -->
+
 <!-- Telegram -->
 <div id="Telegram" class="contentbox">
-<h2 title="Telegram"><i class="fab fa-brands fa-telegram caticontg"></i> Telegram</h2>
+<h2 title="Telegram"><i class="fab fa-brands fa-telegram caticontelegram"></i> Telegram</h2>
 <p class="instructionscode"><a  href="https://desktop.telegram.org">Telegram Desktop</a> → Settings → Advanced → Export Telegram data</p>
 
 <p>Telegram brings an easy way to save conversations on your disk. In just a few taps, you can export some (or all) of your chats, including photos and other media they contain. As a result you’ll get all your data accessible offline in JSON-format or in beautifully formatted HTML. To use this feature, make sure you have the latest version of Telegram Desktop installed on your computer, then click Settings > Export Telegram data. This tool will be particularly useful for users who have millions of messages and can’t easily access the oldest parts of their messaging history.</p>
@@ -269,7 +562,7 @@ font-weight: bold;
 
 <!-- TikTok -->
 <div id="TikTok" class="contentbox">
-<h2 title="TikTok"><i class="fab fa-brands fa-tiktok caticontk"></i> TikTok</h2>
+<h2 title="TikTok"><i class="fab fa-brands fa-tiktok caticontiktok"></i> TikTok</h2>
 <p class="instructionscode">Privacy → Personalize and data → Download TikTok Data</p>
 
 <p>There is no setting available to automatically save all of the TikToks you post, but you have the option to save each video manually after you've posted it. Exported data can be downloaded in TXT format for an easy-to-read text file or JSON for a file you can import elsewhere.</p>
@@ -284,9 +577,26 @@ font-weight: bold;
 </div>
 <!-- /TikTok -->
 
+<!-- Tumblr -->
+<div id="Tumblr" class="contentbox">
+<h2 title="Tumblr"><i class="fab fa-brands fa-tumblr caticontumblr"></i> Tumblr</h2>
+<p class="instructionscode">Account → <a href="https://www.tumblr.com/settings/account">Settings</a> → Select the blog you’d like to export on the right side of the page → Export → Export [blog name]</p>
+
+<p>You can export all of the content you’ve created for your Tumblr blog, and package it up into a convenient ZIP file for you to download, with active times, ads served, API applications, browser info, dashboard posts, email ads surveys, highlighted posts, most important tags, push notification history, and user interests.</p>
+
+<ul>
+<li><a href="https://tumblr.zendesk.com/hc/en-us/articles/360005118894-Export-Your-Blog">Export Your Blog – Help Center</a></li>
+<li><a href="https://backupyoursh.it/guides/tumblr-privacy/">Tumblr - Privacy Data - Backup Your Shit!</a></li>
+<li><a href="https://www.reddit.com/r/DataHoarder/comments/a4kjyd/tools_for_archiving_a_tumblr_site/">Tools for archiving a Tumblr site : DataHoarder</a></li>
+</ul>
+
+<p class="backtothetop"><a href="#" title="Back to the privacy tools category menu"><br><i class="fas fa-angle-double-up"></i><br>Back to the top</a></p>
+</div>
+<!-- /Tumblr -->
+
 <!-- Twitter -->
 <div id="Twitter" class="contentbox">
-<h2 title="Twitter"><i class="fab fa-brands fa-twitter caticontw"></i> Twitter</h2>
+<h2 title="Twitter"><i class="fab fa-brands fa-twitter caticontwitter"></i> Twitter</h2>
 <p class="instructionscode"><a href="https://twitter.com/settings/account">Settings and privacy</a> → <a href="https://twitter.com/settings/download_your_data">Download an archive of your data</a> → Request archive</p>
 
 <p>Reviewing your Twitter data can give you insights into the type of information stored for your account. It provides an easy way for you to view details about your account, and to make changes as you see fit. You can request a ZIP file with an archive of your account information, account history, apps and devices, account activity, interests, and Ads data. You’ll get an in-app notification when the archive of your data is ready to download.</p>
@@ -300,9 +610,24 @@ font-weight: bold;
 </div>
 <!-- /Twitter -->
 
+<!-- VK -->
+<div id="VK" class="contentbox">
+<h2 title="VK"><i class="fab fa-brands fa-vk caticonvk"></i> VK</h2>
+<p class="instructionscode"><a href="https://vk.com/data_protection?section=rules">Data Management Rules</a> → Download Your Information → <a href="https://vk.com/data_protection?section=requests">Processing Requests</a></p>
+
+<p>You can download a copy of your VK data and can be requested with the GDPR. VK data copy will be provided as a ZIP file, and divided the information into different categories: photos you liked, money transfer history or a range of your interests which are used to provide targeted advertising.</p>
+
+<ul>
+<li><a href="https://vk.com/data_protection">VK Data Protection</a></li>
+</ul>
+
+<p class="backtothetop"><a href="#" title="Back to the privacy tools category menu"><br><i class="fas fa-angle-double-up"></i><br>Back to the top</a></p>
+</div>
+<!-- /VK -->
+
 <!-- WhatsApp -->
 <div id="WhatsApp" class="contentbox">
-<h2 title="WhatsApp"><i class="fab fa-brands fa-whatsapp caticonwa"></i> WhatsApp</h2>
+<h2 title="WhatsApp"><i class="fab fa-brands fa-whatsapp caticonwhatsapp"></i> WhatsApp</h2>
 <p class="instructionscode">Back up chats: WhatsApp → More options → Settings → Chats → Chat backup → BACK UP<br>
 Export chat history: Open the individual or group chat → More options → More → Export chat</p>
 <p>WhatsApp chats are automatically backed up and saved daily to your phone's memory. Depending on your settings, you can also periodically back up your WhatsApp chats to Google Drive. But if you want an offline copy of all the chats and don't to lose any of your messages, can manually back up your chats.</p>
@@ -318,7 +643,7 @@ Export chat history: Open the individual or group chat → More options → More
 
 <!-- YouTube -->
 <div id="YouTube" class="contentbox">
-<h2 title="YouTube"><i class="fab fa-brands fa-youtube caticonyt"></i> YouTube</h2>
+<h2 title="YouTube"><i class="fab fa-brands fa-youtube caticonyoutube"></i> YouTube</h2>
 <p class="instructionscode"><a href="https://myaccount.google.com">Google Account</a> → <a href="https://myaccount.google.com/data-and-personalization">Data & personalisation</a> → <a href="https://takeout.google.com">Google Takeout</a></p>
 
 <p>Export a copy of content in your Google Account to back it up or use it with a service outside of Google.</p>
@@ -335,10 +660,11 @@ Export chat history: Open the individual or group chat → More options → More
 
 <!-- Credits -->
 <div class="contentbox" id="creditsbox">
-<h2>Credits</h2>
+<h2 class="subtitle">Credits</h2>
 <ul>
 <li>Web desing inspired in: <a href="https://www.privacytools.io">Privacy Tools: Encryption Against Mass Surveillance</a></li>
 <li>Icons by: <a href="https://fontawesome.com/kits">Your Kits | Font Awesome</a></li>
+<li>Recommended website: <a href="https://backupyoursh.it/">Backup Your Shit!</a></li>
 <li>Contact: <a href="mailto:howtoarchiveit@protonmail.com">howtoarchiveit@protonmail.com</a></li>
 </ul>
 
