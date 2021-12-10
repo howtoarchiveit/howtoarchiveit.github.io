@@ -10,4 +10,4 @@ Compilation of manuals and instructions on how to preserve profiles on social me
 - 🌱 I’m currently learning coding, file systems, and storage
 - 💞️ I’m looking to collaborate on many open and free software
 - 📫 How to reach me howtoarchiveit@protonmail.com
-* 🏷 Talk about your downloading with #howtoarchiveit
+- 🏷 Talk about your downloading with #howtoarchiveit
